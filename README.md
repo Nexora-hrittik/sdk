@@ -1,6 +1,6 @@
-# @rec-labs/sdk
+# @nexora/sdk
 
-Official Simulation SDK for the **REC Labs** platform.
+Official Simulation SDK for the **Nexora** platform.
 
 This package defines the core runtime interfaces, pure state transition contracts, execution hooks, and telemetry UI components used to build interactive, deterministic computer science simulations.
 
@@ -10,7 +10,7 @@ This package defines the core runtime interfaces, pure state transition contract
 
 ```
                   ┌────────────────────┐
-                  │    @rec-labs/sdk   │
+                  │    @nexora/sdk     │
                   └─────────┬──────────┘
                             │
               ┌─────────────┼─────────────┐
@@ -21,11 +21,11 @@ This package defines the core runtime interfaces, pure state transition contract
               └─────────────┼─────────────┘
                             │
                             ▼
-                  REC-Labs Platform
+                    Nexora Platform
 ```
 
 The SDK is a foundational, standalone package:
-- It has **zero dependencies on the REC-Labs platform**.
+- It has **zero dependencies on the Nexora platform**.
 - It exports strongly typed contracts that all simulations must satisfy.
 - It provides headless runtime execution hooks (`useSimulationRuntime`) and reusable telemetry playback controls (`PlaybackBar`, `Slider`, `ErrorFallback`).
 
@@ -34,7 +34,7 @@ The SDK is a foundational, standalone package:
 ## Installation
 
 ```bash
-npm install @rec-labs/sdk
+npm install @nexora/sdk
 ```
 
 Peer dependencies:
@@ -46,10 +46,10 @@ Peer dependencies:
 
 ## Core Contract
 
-Every simulation module exported for REC Labs implements `SimulationModule<TState, TConfig, TStepLog>`:
+Every simulation module exported for Nexora implements `SimulationModule<TState, TConfig, TStepLog>`:
 
 ```typescript
-import { SimulationModule } from '@rec-labs/sdk';
+import { SimulationModule } from '@nexora/sdk';
 
 export interface MyState { ... }
 export interface MyConfig { ... }

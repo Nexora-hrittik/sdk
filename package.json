@@ -1,7 +1,7 @@
 {
-  "name": "@rec-labs/sdk",
+  "name": "@nexora/sdk",
   "version": "0.1.0",
-  "description": "Simulation SDK for authoring interactive Computer Science simulations in REC-Labs",
+  "description": "Simulation SDK for authoring interactive Computer Science simulations in Nexora",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
