@@ -1,4 +1,4 @@
-# @nexora/sdk
+# @nexora-hrittik/sdk
 
 Official Simulation SDK for the **Nexora** platform.
 
@@ -10,7 +10,7 @@ This package defines the core runtime interfaces, pure state transition contract
 
 ```
                   ┌────────────────────┐
-                  │    @nexora/sdk     │
+                  │ @nexora-hrittik/sdk │
                   └─────────┬──────────┘
                             │
               ┌─────────────┼─────────────┐
@@ -34,7 +34,7 @@ The SDK is a foundational, standalone package:
 ## Installation
 
 ```bash
-npm install @nexora/sdk
+npm install @nexora-hrittik/sdk
 ```
 
 Peer dependencies:
@@ -49,7 +49,7 @@ Peer dependencies:
 Every simulation module exported for Nexora implements `SimulationModule<TState, TConfig, TStepLog>`:
 
 ```typescript
-import { SimulationModule } from '@nexora/sdk';
+import { SimulationModule } from '@nexora-hrittik/sdk';
 
 export interface MyState { ... }
 export interface MyConfig { ... }

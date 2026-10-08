@@ -1,5 +1,5 @@
 {
-  "name": "@nexora/sdk",
+  "name": "@nexora-hrittik/sdk",
   "version": "0.1.0",
   "description": "Simulation SDK for authoring interactive Computer Science simulations in Nexora",
   "type": "module",
